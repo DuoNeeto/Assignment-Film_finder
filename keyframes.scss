@@ -1,0 +1,17 @@
+@keyframes switchOpacity {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes grow {
+  from {
+    transform: scale(100%, 100%);
+  }
+  to {
+    transform: scale(103%, 103%);
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script defer type="text/javascript" src="./movies.js"></script>
+    <script defer type="text/javascript" src="./script.js"></script>
+
+    <title>Film Finder</title>
+  </head>
+  <body>
+    <header>Film Finder</header>
+    <form>
+      <div>Pick a new(ish) movie from our selection</div>
+      <ul>
+        <li>
+          <input
+            id="new-movies"
+            value="new-movies"
+            name="movie-filter"
+            type="radio"
+          />
+          <label for="new-movies">New Movies</label>
+        </li>
+        <li>
+          <input
+            id="x-men"
+            value="x-men"
+            name="movie-filter"
+            type="radio"
+          /><label for="x-men">X-Men</label>
+        </li>
+        <li>
+          <input
+            id="avengers"
+            value="avengers"
+            name="movie-filter"
+            type="radio"
+          />
+          <label for="avengers">The Avengers</label>
+        </li>
+        <li>
+          <input
+            id="princess"
+            value="princess"
+            name="movie-filter"
+            type="radio"
+          />
+          <label for="princess">Princess</label>
+        </li>
+        <li>
+          <input id="batman" value="batman" name="movie-filter" type="radio" />
+          <label for="batman">Batman</label>
+        </li>
+      </ul>
+    </form>
+    <nav>
+      <ul class="photo-grid"></ul>
+    </nav>
+  </body>
+</html>
